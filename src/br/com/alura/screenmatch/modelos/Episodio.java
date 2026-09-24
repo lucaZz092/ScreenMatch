@@ -3,7 +3,16 @@ package br.com.alura.screenmatch.modelos;
 public class Episodio {
     private int numero;
     private String nome;
-    private String serie;
+    private Serie serie;
+    private int totalVisualizacoes;
+
+    public int getTotalVisualizacoes() {
+        return totalVisualizacoes;
+    }
+
+    public void setTotalVisualizacoes(int totalVisualizacoes) {
+        this.totalVisualizacoes = totalVisualizacoes;
+    }
 
     public int getNumero() {
         return numero;
@@ -21,11 +30,11 @@ public class Episodio {
         this.nome = nome;
     }
 
-    public String getSerie() {
+    public Serie getSerie() {
         return serie;
     }
 
-    public void setSerie(String serie) {
+    public void setSerie(Serie serie) {
         this.serie = serie;
     }
 }
