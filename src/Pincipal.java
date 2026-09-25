@@ -4,7 +4,7 @@ import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
-public class Pincipal {
+public class Principal {
     public static void main(String[] args) {
 
         //INSTANCIANDO O OBJETO **meuFilme**
