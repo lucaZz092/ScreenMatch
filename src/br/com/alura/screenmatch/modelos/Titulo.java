@@ -35,7 +35,7 @@ public class Titulo {
         return anoDeLancamento;
     }
 
-    public boolean getIncluidoNoPlano() {
+    public boolean isIncluidoNoPlano() {
         return incluidoNoPlano;
     }
 
