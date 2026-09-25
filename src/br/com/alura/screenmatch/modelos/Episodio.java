@@ -1,11 +1,14 @@
 package br.com.alura.screenmatch.modelos;
 
 public class Episodio {
+
+    //ATRIBUTOS
     private int numero;
     private String nome;
     private Serie serie;
     private int totalVisualizacoes;
 
+    //GETTERS E SETTERS
     public int getTotalVisualizacoes() {
         return totalVisualizacoes;
     }

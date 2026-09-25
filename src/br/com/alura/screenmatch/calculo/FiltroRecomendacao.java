@@ -2,6 +2,7 @@ package br.com.alura.screenmatch.calculo;
 
 public class FiltroRecomendacao {
 
+    //METODOS
     public void filtra(Classificavel classificavel){
         if (classificavel.getClassificacao() >= 4){
             System.out.println("Esta entre os preferidos do momento!");

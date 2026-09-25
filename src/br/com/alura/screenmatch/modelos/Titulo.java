@@ -1,6 +1,8 @@
 package br.com.alura.screenmatch.modelos;
 
 public class Titulo {
+
+    //ATRIBUTOS
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -11,10 +13,9 @@ public class Titulo {
     //METODOS
 
     public void exibeFichaTecnica(){
-        System.out.println("Nome do filme: " + nome);
+        System.out.println("Nome do título: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
-        System.out.println();
-        System.out.println();
+
     }
     public void avalia(int nota){
         somaDasAvaliacoes += nota;
