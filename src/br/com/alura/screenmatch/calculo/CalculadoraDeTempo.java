@@ -13,12 +13,6 @@ public class CalculadoraDeTempo {
         return tempoTotal;
     }
 
-//    public void inclui(Filme f){
-//        tempoTotal = tempoTotal + f.getDuracaoEmMinutos();
-//    }
-//    public void inclui(Serie s){
-//        tempoTotal = tempoTotal + s.getDuracaoEmMinutos();
-//    }
     // METODO -> Inclui titulos e soma a quantidade de duração em minutos.
     public void inclui(Titulo titulo){
         System.out.println("Adicionando duração em minutos de: " + titulo.getNome());

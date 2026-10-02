@@ -37,7 +37,12 @@ public class Serie extends Titulo implements Classificavel {
     }
 
     public boolean isAtiva() {
-        return ativa;
+        if (ativa == true){
+            System.out.println("A séria está ativa");
+        }else {
+            System.out.println("A série está inativa");
+        }
+        return false;
     }
 
     public void setAtiva(boolean ativa) {

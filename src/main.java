@@ -19,6 +19,17 @@ public class main {
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duração para maratonar lost: " + lost.getDuracaoEmMinutos());
 
+        //INSTANCIANDO OBJETO **O Mentalista**
+        Serie oMentalista = new Serie();
+        oMentalista.setNome("O Mentalista");
+        oMentalista.setAnoDeLancamento(2010);
+        oMentalista.exibeFichaTecnica();
+        oMentalista.setTemporadas(14);
+        oMentalista.setEpisodiosPorTemporada(12);
+        oMentalista.setMinutosPorEpisodio(46);
+        oMentalista.setAtiva(true);
+
+
         //INSTANCIANDO O OBJETO **episodio**
         Episodio episodio = new Episodio();
         episodio.setNumero(1);
